@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+.container .top-bar {
+  margin-top: 0px;
+  background-color: lightgreen;
+}
+.container h3 {
+  margin-top: 0px;
+  margin-bottom: 1%;
+  font-size: 40px;
+  padding-left: 0.5%;
+}
+.container a {
+  font-size: 23px;
+  padding-left: 0.5%;
+}
+
+.table-responsive {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: 34%;
+  margin-right: 42%;
+}
+.table-responsive button {
+  margin-left: 7%;
+}
+.table-responsive #myInput {
+  margin-left: 7%;
+  font-size: 17px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=output.css.map */
