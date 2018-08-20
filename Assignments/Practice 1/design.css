@@ -1,0 +1,126 @@
+body{
+    margin: 0%;
+}
+
+
+
+.nav_top{
+    padding-left: 0%;
+    background-color:rgb(231, 227, 227);
+    align-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(231, 227, 227);
+    align-self: center;
+}
+
+li {
+    float: none;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(134, 128, 128);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    border-bottom: 3px solid black;
+    color: black;
+    border-bottom-width: thick;
+}
+
+.active {
+    border-bottom: 3px solid black;
+    color: black;
+    border-width: thick;
+}
+
+td{
+    border: solid white ;
+    border-width: thin;
+    width: 10%;
+    height: 10%;
+    background-color: white;
+
+}
+
+#resize{
+    width: auto;
+    height: auto;
+}
+
+p{
+    border: 0%;
+    margin: 0%;
+    margin-top: 3%;
+}
+
+#first{
+    list-style: none;
+ display: inline;
+}
+
+
+a.ex1{
+    border-left: solid white;
+    border-top: solid  rgb(231, 227, 227);
+    border-right: solid rgb(231, 227, 227);
+    border-bottom: solid  rgb(223, 217, 217);
+    border-width: thin;
+}
+
+
+#nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#nav li{
+    display:inline;
+}
+
+#nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+#first
+{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.mainLoginInput::-webkit-input-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+  }
+  
+  .mainLoginInput:-ms-input-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+  }
+  
+  .mainLoginInput:-moz-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+  }
+  
+  .mainLoginInput::-moz-placeholder {
+    font-family: 'myFont', Arial, Helvetica, sans-serif;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1; /* Firefox */
+}
+ 
+
